@@ -111,6 +111,10 @@
   cursor: pointer;
 }
 
+.contact__schedule:hover {
+  color: #b9b9b9;
+}
+
 
 /* main */
 
@@ -356,7 +360,7 @@
   color: #221f1f;
   text-decoration: none;
   margin-right: 12px;
-
+  line-height: 25px;
 }
 
 .pagination__link:hover {
