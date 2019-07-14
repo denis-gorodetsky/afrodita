@@ -1,0 +1,54 @@
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.42;
+	font-weight: 300;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul > li {
+	list-style: none;
+}
+
+.wrapper {
+	min-height: 100%;
+  min-width: 1080px;
+	overflow: hidden;
+	
+}
+
+.container {
+	margin: 0 auto;
+	width: 1060px;
+}
+
+.wrapper:after {
+  content: "";
+  display: block;
+  height: 77px;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  margin: 0;
+}
