@@ -35,7 +35,7 @@ ul > li {
 .wrapper:after {
   content: "";
   display: block;
-  height: 77px;
+  height: 67px;
 }
 
 .clearfix:after {

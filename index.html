@@ -8,15 +8,6 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700,800|Roboto:300,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext">
   <link rel="stylesheet" href="css/main.css">
   <title>Фитнес-клуб "Афродита"</title>
-  <style>
-    html {
-      background: url( '/img/afrodita/afrodita1.png' ) 50% 0 no-repeat;
-    }
-
-    body {
-      opacity: 0.5;
-    }
-  </style>
 </head>
 
 <body>
@@ -112,8 +103,8 @@
           </div>
         </section>
 
-        <div class="container clearfix">
-          <section class="news">
+        <div class="container">
+          <section class="news clearfix">
             <h2 class="news__title">Последние новости</h2>
             <div class="news__left">
               <ul class="lastnews">
@@ -121,7 +112,7 @@
                   <div class="lastnews__photo">
                     <img src="img/last-news/news-1.png" alt="Картинка последней новости" class="lastnews__pic">
                   </div>
-                  <div class="lastnews__content">
+                  <article class="lastnews__content">
                     <div class="lastnews__data">12.10.2016</div>
                     <h3>Похудение с помощью бодибилдинга!</h3>
                     <p>
@@ -130,13 +121,13 @@
                       вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого
                       начинающего атлета.
                     </p>
-                  </div>
+                  </article>
                 </li>
                 <li class="lastnews__item">
                   <div class="lastnews__photo">
                     <img src="img/last-news/news-2.png" alt="Картинка последней новости" class="lastnews__pic">
                   </div>
-                  <div class="lastnews__content">
+                  <article class="lastnews__content">
                     <div class="lastnews__data">01.02.2016</div>
                     <h3>Заражай друзей, получай призы!</h3>
                     <p>
@@ -145,13 +136,13 @@
                       дружеская атмосфера и постоянная поддержка. Мы заботимся о
                       вашем комфорте и предлагаем испытать это уже сегодня!
                     </p>
-                  </div>
+                  </article>
                 </li>
                 <li class="lastnews__item">
                   <div class="lastnews__photo">
                     <img src="img/last-news/news-3.png" alt="Картинка последней новости" class="lastnews__pic">
                   </div>
-                  <div class="lastnews__content">
+                  <article class="lastnews__content">
                     <div class="lastnews__data">12.10.2016</div>
                     <h3>Фрилансер? Выпрями спину!</h3>
                     <p>
@@ -160,23 +151,33 @@
                       Используйте специальную подставку для ноутбука, если вы
                       проводите за ним больше 2 часов. Настройте высоту и яркость монитора!
                     </p>
-                  </div>
+                  </article>
                 </li>
               </ul>
             </div>
 
             <div class="news__right">
-              <h3 class="topnews-title">топ новостей<br> <span class="topnews-title__month">за сентябрь</span></h3>
+              <h3 class="topnews-title">топ новостей <span class="topnews-title__month">за сентябрь</span></h3>
               <ul class="topnews">
                 <li class="topnews__item">
                   <div class="topnews__photo">
-                    <img src="img/top-news/topnews-1.png" alt="Мужчина со штангой" class="topnews__pic">
+                    <a href="" topnews__link>
+                      <img src="img/top-news/topnews-1.png" alt="Мужчина со штангой" class="topnews__pic">
+                    </a>
                   </div>
+                </li>
+                <li class="topnews__item">
                   <div class="topnews__photo">
-                    <img src="img/top-news/topnews-2.png" alt="Зелень на столе" class="topnews__pic">
+                    <a href="" topnews__link>
+                      <img src="img/top-news/topnews-2.png" alt="Зелень на столе" class="topnews__pic">
+                    </a>
                   </div>
+                </li>
+                <li class="topnews__item">
                   <div class="topnews__photo">
-                    <img src="img/top-news/topnews-3.png" alt="Гантели" class="topnews__pic">
+                    <a href="" topnews__link>
+                      <img src="img/top-news/topnews-3.png" alt="Гантели" class="topnews__pic">
+                    </a>
                   </div>
                 </li>
               </ul>

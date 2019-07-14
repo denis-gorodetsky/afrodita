@@ -4,24 +4,10 @@
 @import url('layout/fonts.css');
 @import url('layout/base.css');
 
-/*@import url('./animations/roll.css');*/
-
-/*components*/
-
-@import url('components/header.css');
-@import url('components/nav.css');
-@import url('components/main-content.css');
-@import url('components/footer.css');
-@import url('components/breadcrumbs.css');
-@import url('components/form.css');
-
-
 /*pages*/
 
 @import url('pages/about.css');
-@import url('pages/rates.css');
-@import url('pages/reviews.css');
-@import url('pages/index.css');
+
 
 
 
