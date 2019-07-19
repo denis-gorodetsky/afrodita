@@ -1,0 +1,34 @@
+.reviews {
+  margin-bottom: 80px;
+}
+
+.reviews__title, .services__title, .partners__title {
+  font-size: 49px;
+  font-weight: bold;
+  color: #221f1f;
+  text-transform: uppercase;
+  letter-spacing: 2.45px;
+}
+
+.more {
+  background-color: #131415;
+  background-image: url('/img/decor/pattern.png');
+}
+
+.more__text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  padding: 12px 15px;
+	line-height: 30px;
+	margin: 0 auto;
+  width: 700px;
+}
+
+.more__text-orange {
+  color: #f89513;
+  font-weight: bold;
+}
+
+

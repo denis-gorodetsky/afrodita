@@ -1,0 +1,37 @@
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.services__item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 250px;
+  margin-bottom: 40px;
+}
+
+.services__item:nth-child(3), .services__item:last-child {
+  margin-right: inherit;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.partners__item {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 40px;
+  filter: grayscale(100%);
+}
+
+.partners__item:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+}

@@ -4,10 +4,19 @@
 @import url('layout/fonts.css');
 @import url('layout/base.css');
 
+/*components*/
+
+@import url('components/header.css');
+@import url('components/footer.css');
+@import url('components/breadcrumbs.css');
+@import url('components/form.css');
+
 /*pages*/
 
 @import url('pages/about.css');
-
+@import url('pages/services.css');
+@import url('pages/reviews.css');
+@import url('pages/index.css');
 
 
 
