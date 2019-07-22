@@ -1,0 +1,55 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  margin-bottom: 28px;
+}
+
+.nav__icon {
+  background: url('../../img/icons/nav/icon_sprites.png') -40px -4px;
+  width: 19px;
+  height: 14px;
+  margin-right: 17px;
+}
+
+.nav__link:hover .nav__text,
+.nav__link--active .nav__text {
+  color: #f89513;
+}
+
+.nav__icon--star {
+  background-position: 0px -0px;
+  width: 20px;
+  height: 18px;
+}
+
+.nav__icon--serv,
+.nav__link--active .nav__icon--serv {
+  background-position: -78px -4px;
+}
+
+.nav__link:hover .nav__icon,
+.nav__link--active .nav__icon {
+  background-position: -59px -4px;
+}
+
+.nav__link:hover .nav__icon--serv,
+.nav__link--active .nav__icon--serv {
+  background-position: -97px -4px;
+}
+
+.nav__link:hover .nav__icon--star,
+.nav__link--active .nav__icon--star {
+  background-position: -20px -0px;
+}

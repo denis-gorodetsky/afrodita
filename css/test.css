@@ -1,0 +1,15 @@
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.reviews__title, .services-section__title {
+  font-size: 49px;
+  font-weight: bold;
+  color: #221f1f;
+  text-transform: uppercase;
+  letter-spacing: 2.45px;
+  margin-bottom: 30px;
+}

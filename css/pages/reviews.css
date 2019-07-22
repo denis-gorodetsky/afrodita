@@ -1,29 +1,24 @@
 .reviews {
-  margin-bottom: 80px;
-}
-
-.reviews__title, .services__title, .partners__title {
-  font-size: 49px;
-  font-weight: bold;
-  color: #221f1f;
-  text-transform: uppercase;
-  letter-spacing: 2.45px;
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 60px;
 }
 
 .more {
+  display: flex;
+  justify-content: center;
   background-color: #131415;
-  background-image: url('/img/decor/pattern.png');
+  background-image: url('/img/decor/pattern_big.png ');
+  margin-bottom: 28px;
 }
 
 .more__text {
   color: #fff;
   font-size: 18px;
   font-weight: 300;
-  text-align: left;
-  padding: 12px 15px;
 	line-height: 30px;
-	margin: 0 auto;
-  width: 700px;
+  width: 80%;
+  text-align: center;
 }
 
 .more__text-orange {

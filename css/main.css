@@ -10,9 +10,17 @@
 @import url('components/footer.css');
 @import url('components/breadcrumbs.css');
 @import url('components/form.css');
+@import url('components/sidebar.css');
+@import url('components/nav.css');
+@import url('components/socials.css');
+@import url('components/topnews.css');
+@import url('components/features.css');
+@import url('components/pagination.css');
+
 
 /*pages*/
 
+@import url('pages/about.css');
 @import url('pages/about.css');
 @import url('pages/services.css');
 @import url('pages/reviews.css');

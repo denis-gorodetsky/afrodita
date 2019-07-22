@@ -22,7 +22,7 @@ ul > li {
 
 .wrapper {
 	min-height: 100%;
-  min-width: 1080px;
+  min-width: 1200px;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
@@ -30,24 +30,7 @@ ul > li {
 
 .container {
 	margin: 0 auto;
-	width: 1060px;
-}
-
-.container-serv-reviews {
-	margin: 0 auto;
-	width: 880px;
-}
-
-.wrapper:after {
-  content: "";
-  display: block;
-	height: 67px;
-}
-
-.clearfix:after {
-	content: "";
-	display: block;
-	clear: both;
+	width: 1160px;
 }
 
 * {
@@ -77,5 +60,13 @@ table {
 	padding: 0;
 	clip: rect(0 0 0 0);
 	overflow: hidden;
+}
+
+img {
+	max-width: 100%;
+}
+
+footer {
+	margin-top: auto;
 }
 
