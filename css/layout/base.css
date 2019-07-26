@@ -21,7 +21,7 @@ ul > li {
 }
 
 .wrapper {
-	height: 100vh;
+	min-height: 100vh;
   min-width: 1200px;
 	overflow: hidden;
 	display: flex;

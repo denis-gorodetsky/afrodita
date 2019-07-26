@@ -55,3 +55,8 @@
 .nav__link--active .nav__icon--star {
   background-position: -20px -0px;
 }
+
+.nav__list{
+  margin-left: 38px;
+  margin-bottom: 50px;
+}
