@@ -1,10 +1,14 @@
+.page-header {
+  margin-bottom: 8px;
+}
+
 .services {
   display: flex;
   flex-wrap: wrap;
 }
 
 .services__item {
-  width: calc(127% / 12 * 3 - 21px);
+  width: 250px;
   margin-bottom: 40px;
   margin-right: 40px;
 }

@@ -2,16 +2,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .topnews__title {
   text-transform: uppercase;
+  text-align: center;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 2.4px;
   width: 130px;
   line-height: 1.7em;
+  margin-bottom: -5px;
 }
 
 .topnews__title-month {
@@ -20,13 +22,21 @@
 
 .topnews__photo {
   position: relative;
-  width: 160px;
-  height: 160px;
+  width: 170px;
+  height: 175px;
   overflow: hidden;
 }
 
+.topnews__photo:after {
+  content: "";
+  width: 170px;
+  height: 175px;
+  background: rgba(245, 245, 245, 0.8);
+
+}
+
 .topnews__item:nth-child(2) {
-  margin-bottom: 18px;
+  margin-bottom: 13px;
 }
 
 .topnews__pic {

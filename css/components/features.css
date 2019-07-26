@@ -12,8 +12,9 @@
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 26px;
+  margin-bottom: 22px;
   letter-spacing: 0.54px;
+  margin-top: 5px;
 }
 
 .features__item {
@@ -30,6 +31,10 @@
   font-weight: 800;
   letter-spacing: 2.59px;
   text-transform: uppercase;
+  margin-bottom: -5px;
+}
+
+.features__desc p {
   margin-bottom: 15px;
 }
 
@@ -42,4 +47,5 @@
 .features__text-list li:before {
   content: "•";
   margin-right: 25px;
+  margin-left: 6px;
 }

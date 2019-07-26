@@ -18,12 +18,19 @@
 @import url('./components/pagination.css');
 
 
+
 /*pages*/
 
 @import url('./pages/intro.css');
 @import url('./pages/about.css');
 @import url('./pages/services.css');
 @import url('./pages/reviews.css');
+
+/* animation */
+
+@import url('/css/animate.css');
+
+
 
 
 
