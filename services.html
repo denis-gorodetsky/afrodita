@@ -14,7 +14,7 @@
 <body>
   <div class="wrapper">
 
-    <header class="page-header">
+    <header class="page-header page-header--other-page">
       <div class="container header__container">
         <div class="page-header__left">
           <a href="about.html" class="logo">
@@ -24,7 +24,13 @@
         <div class="page-header__right">
           <address class="contact">
             <a class="contact__phone" href="tel:+78000039210">8 (800) 00-392-10</a>
-            <a class="contact__schedule">График работы</a>
+            <div class="contact__dropdown dropdown">
+              <div class="dropdown__desc">График работы</div>
+              <ul class="dropdown__list">
+                <li class="dropdown__item dropdown__item--orange">пн-вс: 09:00-20:00</li>
+                <li class="dropdown__item">обед: 14:00-14:30</li>
+              </ul>
+            </div>
           </address>
         </div>
       </div>
@@ -33,14 +39,14 @@
     <div class="main-content container">
       <aside class="sidebar">
         <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__item">
+          <ul class="nav__list nav__list--reviews">
+            <li class="nav__item nav__item--other-page">
               <a href="about.html" class="nav__link">
                 <div class="nav__icon nav__icon--main"></div>
                 <div class="nav__text">Главная</div>
               </a>
             </li>
-            <li class="nav__item">
+            <li class="nav__item nav__item--other-page">
               <a href="reviews.html" class="nav__link">
                 <div class="nav__icon nav__icon--star"></div>
                 <div class="nav__text">Отзывы</div>
@@ -175,7 +181,7 @@
                 <div class="services__photo-name">Петли трх</div>
               </div>
               <article class="services__desc">
-                <h4>Петли трх</h4>
+                <h4>Петли <span class="service__photo-name-upper-text">трх</span></h4>
                 <p>Новое направление для нашего центра, которое стало одним из самых популярных и востребованных.
                   Программа TRX Suspension Training создана для людей с начальным уровнем подготовки и позволяет
                   эффективно тренироваться, используя нарастающую нагрузку, которая зависит от силы и массы

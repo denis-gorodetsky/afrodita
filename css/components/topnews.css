@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .topnews__title {
@@ -43,8 +43,12 @@
   height: 124px;
 }
 
+.topnews__item:first-child {
+  margin-bottom: -5px;
+}
+
 .topnews__item:nth-child(2) {
-  margin-bottom: 13px;
+  margin-bottom: 15px;
 }
 
 .topnews__pic {

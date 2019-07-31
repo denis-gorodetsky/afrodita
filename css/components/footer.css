@@ -17,12 +17,12 @@
 .copyright__desc-link {
   color: #fff;
   font-weight: bold;
+  transition: 0.2s;
 }
 
 .copyright__desc-link:hover {
   color: #f89513;
   font-weight: bold;
-  transition: 0.3s;
 }
 
 .copyright__author-name {

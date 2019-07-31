@@ -44,11 +44,11 @@
   text-decoration: none;
   line-height: 25px;
   padding: 6px;
+  transition: 0.2s;
 }
 
 .pagination__link:hover {
   color: #f89513;
-  transition: 0.3s;
 }
 
 .pagination__item--active .pagination__link {

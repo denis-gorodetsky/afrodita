@@ -31,17 +31,87 @@
   text-decoration: none;
 }
 
-.contact__schedule {
+.dropdown {
+  position: relative;
+  color: #221f1f;
+}
+
+.dropdown__desc {
   border-bottom: solid 1px #c77814;
-  line-height: 1.1;
+  line-height: 1.2;
   color: #c77814;
   opacity: 0.7;
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.2s;
 }
 
-.contact__schedule:hover {
+ .dropdown__desc:hover {
   color: #b9b9b9;
-  transition: 0.3s;
+}
+
+.dropdown__list {
+  position: absolute;
+  top: 100%;
+  left: 9999px;
+  opacity: 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 13px 20px;
+  border-radius: 3px 0px 3px 3px;
+  text-align: left;
+  z-index: 1000;
+  box-shadow: 0px 0px 10px 0px rgba(23, 59, 117, 0.55);
+  transition: opacity 0.2s ease-in;
+  -webkit-transition: opacity 0.2s ease-in;
+  -moz-transition: opacity 0.2s ease-in;
+}
+
+.dropdown__list:after {
+  content: "";
+  display: block;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  bottom: 100%;
+  position: absolute;
+  right: 0;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);  
+  -moz-transform: rotate(45deg);  
+  border-radius: 2px 0px 0px 0px;
+  margin-bottom: -10px;
+  margin-right: 4px;
+}
+
+.dropdown__list:before {
+  content: "";
+  display: block;
+  height: 30px;
+  left: 0;
+  right: 0;
+  top: -27px;
+  position: absolute;
+  z-index: 10;
+}
+
+.dropdown:hover .dropdown__desc {
+  color: #cdcdcd;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown__list {
+  position: absolute;
+  top: 40px;
+  left: -50px;
+  opacity: 1;
+  transition: opacity .2s;
+}
+
+.dropdown__item--orange {
+  font-weight: bold;
+  color: #f89513;
+  margin-bottom: 3px;
 }
