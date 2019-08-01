@@ -19,10 +19,50 @@
 }
 
 .nav__icon {
+  width: 19px;
+  height: 14px;
+  margin-right: 17px;
+  transition: .2s;
+  position: relative;
+}
+
+.nav__link:hover .nav__icon:before {
+  opacity: 1;
+}
+
+.nav__link:hover .nav__icon:after {
+  opacity: 0;
+}
+
+.nav__icon:after, .nav__icon:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background: url('../../img/icons/nav/icon_sprites.png') -40px -4px;
   width: 19px;
   height: 14px;
   margin-right: 17px;
+  transition: .2s;
+}
+
+.nav__icon:before {
+  background: url('../../img/icons/nav/icon_sprites.png') -59px -4px;
+  opacity: 0;
+}
+
+.nav__text {
+  transition: .2s;
+}
+
+.nav__link--active .nav__icon:before {
+  opacity: 1;
+}
+
+.nav__link--active .nav__icon:after {
+  opacity: 0;
 }
 
 .nav__link:hover .nav__text,
@@ -30,28 +70,33 @@
   color: #f89513;
 }
 
-.nav__icon--star {
+.nav__icon--star:after, .nav__icon--star:before {
   background-position: 0px -0px;
   width: 20px;
   height: 18px;
 }
 
-.nav__icon--serv,
-.nav__link--active .nav__icon--serv {
+.nav__icon--star:before {
+  background-position: -20px -0px;
+}
+
+.nav__icon--serv:after {
   background-position: -78px -4px;
 }
 
-.nav__link:hover .nav__icon,
-.nav__link--active .nav__icon {
-  background-position: -59px -4px;
-}
-
-.nav__link:hover .nav__icon--serv,
-.nav__link--active .nav__icon--serv {
+.nav__icon--serv:before, 
+.nav__link--active .nav__icon--serv:before {
   background-position: -97px -4px;
 }
 
-.nav__link:hover .nav__icon--star,
+/* .nav__icon--serv:after,
+.nav__link--active .nav__icon--serv {
+} */
+
+/* .nav__link:hover .nav__icon--serv:before,
+.nav__link--active .nav__icon--serv {
+} */
+
+/* .nav__link:hover .nav__icon--star:before,
 .nav__link--active .nav__icon--star {
-  background-position: -20px -0px;
-}
+} */
