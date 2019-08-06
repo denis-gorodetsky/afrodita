@@ -22,7 +22,7 @@ ul > li {
 
 .wrapper {
 	min-height: 100vh;
-  max-width: 1200px;
+  min-width: 1200px;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
