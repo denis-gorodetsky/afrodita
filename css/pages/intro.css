@@ -1,5 +1,5 @@
 .wrapper-intro {
-	background: url(/img/decor/intro-back.jpg) center no-repeat;
+	background: url(../../img/decor/intro-back.jpg) center no-repeat;
 	background-size: cover;
 	height: 100%;
   min-width: 100%;
